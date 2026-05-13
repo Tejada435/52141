@@ -10,9 +10,13 @@
 Implementación de un analizador completo para un lenguaje de programación específico definido mediante gramática EBNF. El proyecto utiliza **ANTLR4** para la generación del parser y lexer, y **Node.js** para la lógica de interpretación mediante el patrón de diseño **Visitor**.
 
 ## 2. Especificaciones Técnicas
+
 El sistema ejecuta un pipeline de compilación que cubre las siguientes etapas:
+
 **`Análisis Léxico:`** Identificación de tokens (ID, NUMERO, operadores, símbolos).
+
 **`Análisis Sintáctico:`** Validación gramatical y construcción del árbol sintáctico.
+
 **`Interpretación:`** Recorrido del árbol mediante un Visitor personalizado para ejecución y gestión de memoria.
 
 ## 3. Requerimientos Cumplidos
