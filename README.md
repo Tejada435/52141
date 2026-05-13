@@ -25,11 +25,11 @@ El sistema ejecuta un pipeline de compilación que cubre las siguientes etapas:
 
 ## 4. Instalación y Uso
 
-###1. Clonar el repositorio
+### 1. Clonar el repositorio
 
     git clone https://github.com/Tejada435/52141.git
     
-###2. Acceder al directorio del proyecto.
+### 2. Acceder al directorio del proyecto.
 
 Importante: El proyecto está en la subcarpeta. Estos comandos te meten en la carpeta y te abren el VS Code ahí mismo:
 
@@ -37,7 +37,7 @@ Importante: El proyecto está en la subcarpeta. Estos comandos te meten en la ca
 
 `code .`
 
-###3. Instalar dependencias y ejecutar.
+### 3. Instalar dependencias y ejecutar.
 
 Una vez dentro de la carpeta (en la terminal de VS Code), ejecutá:
 
