@@ -26,17 +26,23 @@ El sistema ejecuta un pipeline de compilación que cubre las siguientes etapas:
 ## 4. Instalación y Uso
 
 ###1. Clonar el repositorio
+
     git clone https://github.com/Tejada435/52141.git
-###2. Acceder al directorio del proyecto. 
+    
+###2. Acceder al directorio del proyecto.
+
 Importante: El proyecto está en la subcarpeta. Estos comandos te meten en la carpeta y te abren el VS Code ahí mismo:
 
 `cd Analizador-Calculadora`
+
 `code .`
 
-###3. Instalar dependencias y ejecutar. 
+###3. Instalar dependencias y ejecutar.
+
 Una vez dentro de la carpeta (en la terminal de VS Code), ejecutá:
 
 `npm install`
+
 `npm start`
 
 ## 5. Casos de Prueba (Validación)
@@ -44,10 +50,14 @@ Una vez dentro de la carpeta (en la terminal de VS Code), ejecutá:
 En la raíz del repositorio se adjuntan archivos `.txt` preparados para testear la robustez del sistema. Para probarlos, debe copiar el contenido del ejemplo deseado y pegarlo en el archivo `input.txt` que se encuentra dentro de la carpeta `Analizador`.
 
 ### Pruebas Correctas (Resultado Exitoso)
+
 **`input_correcto_1.txt`**: Ejemplo base con asignaciones simples y multiplicación (Ancho * Alto).
+
 **`input_correcto_2.txt`**: Ejemplo avanzado que incluye el uso de paréntesis y divisiones para el cálculo de áreas.
 
 ### Pruebas de Error (Validación de Robustez)
+
 **`input_incorrecto_1.txt`**: Error sintáctico. Se omiten los delimitadores `;` al final de las sentencias para verificar que el parser detecte la falta de puntuación.
+
 **`input_incorrecto_2.txt`**: Error léxico. Contiene caracteres no permitidos por el alfabeto de la gramática (símbolo `@`) para validar la detección de tokens inválidos.
 
