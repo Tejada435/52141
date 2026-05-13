@@ -1,3 +1,2 @@
-(Error de sintaxis: falta un punto y coma al final de la primera línea)
 x = 10
 print(x);
