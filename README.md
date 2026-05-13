@@ -47,7 +47,7 @@ Una vez dentro de la carpeta (en la terminal de VS Code), ejecutá:
 
 ## 5. Casos de Prueba (Validación)
 
-En la raíz del repositorio se adjuntan archivos `.txt` preparados para testear la robustez del sistema. Para probarlos, debe copiar el contenido del ejemplo deseado y pegarlo en el archivo `input.txt` que se encuentra dentro de la carpeta `Analizador`.
+En la raíz del repositorio se adjuntan archivos `.txt` preparados para testear la robustez del sistema. Para probarlos, debe copiar el contenido del ejemplo deseado y pegarlo en el archivo `input.txt` que se encuentra dentro de la carpeta `Analizador-Calculadora`.
 
 ### Pruebas Correctas (Resultado Exitoso)
 
