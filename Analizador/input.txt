@@ -1,0 +1,3 @@
+ancho = 5;
+alto = 10;
+print(ancho * alto);
