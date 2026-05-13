@@ -26,16 +26,15 @@ El sistema ejecuta un pipeline de compilación que cubre las siguientes etapas:
 ## 4. Instalación y Uso
 
 ### 1. Clonar repositorio
-```bash
 git clone [https://github.com/Tejada435/52141.git](https://github.com/Tejada435/52141.git)
-2. Instalar dependencias
-Bash
+### 2. Instalar dependencias
 npm install
-3. Ejecutar pipeline completo
-Bash
+### 3. Ejecutar pipeline completo
 npm start
-5. Casos de Prueba (Carpeta /ejemplos)
-input_correcto_1.txt / input_correcto_2.txt: Asignaciones y expresiones válidas.
+### 4. Casos de Prueba (Carpeta /ejemplos)
+input_correcto_1.txt 
+
+input_correcto_2.txt: Asignaciones y expresiones válidas.
 
 input_incorrecto_1.txt: Error sintáctico (omisión de delimitadores).
 
