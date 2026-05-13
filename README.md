@@ -25,7 +25,9 @@ El sistema ejecuta un pipeline de compilación que cubre las siguientes etapas:
 
 ## 4. Instalación y Uso
 
-### 1. Clonar el repositorio
+### 1. Clonar el repositorio.
+
+Abra una terminal en su equipo y ejecute el siguiente comando para obtener el código fuente:
 
     git clone https://github.com/Tejada435/52141.git
     
@@ -33,7 +35,7 @@ El sistema ejecuta un pipeline de compilación que cubre las siguientes etapas:
 
 Importante: El proyecto está en la subcarpeta. Estos comandos te meten en la carpeta y te abren el VS Code ahí mismo:
 
-`cd Analizador-Calculadora`
+`cd 52141/Analizador-Calculadora`
 
 `code .`
 
