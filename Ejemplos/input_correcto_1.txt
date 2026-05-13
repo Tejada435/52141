@@ -1,3 +1,0 @@
-ancho = 10;
-alto = 20;
-print(ancho * alto);
