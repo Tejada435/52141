@@ -65,5 +65,5 @@ En la raíz del repositorio se adjuntan archivos `.txt` preparados para testear 
 
 **`input_incorrecto_1.txt`**: Error sintáctico. Se omiten los delimitadores `;` al final de las sentencias para verificar que el parser detecte la falta de puntuación.
 
-**`input_incorrecto_2.txt`**: Error léxico. Contiene caracteres no permitidos por el alfabeto de la gramática (símbolo `@`) para validar la detección de tokens inválidos.
+**`input_incorrecto_2.txt`**: Error Léxico y Sintáctico. Contiene un carácter no permitido (@). El sistema detectará el error léxico y, debido al proceso de recuperación de errores de ANTLR, informará también la inconsistencia sintáctica resultante en la estructura de la sentencia.
 
